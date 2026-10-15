@@ -7,6 +7,31 @@
 
 Game papan biji bergaya seni piksel retro (*pixel art*) dengan aturan Mancala modern untuk platform **Android** (orientasi landscape) dan desktop, dikembangkan menggunakan **Godot Engine 4.7.2** (GDScript, GL Compatibility renderer).
 
+<p align="center">
+  <img src="assets/screenshots/papan.png" alt="Congklak Pixel Art Gameplay" width="680">
+</p>
+
+---
+
+## 📸 Tangkapan Layar (Screenshots)
+
+| Menu Utama & Konfigurasi | Dialog Aturan Permainan |
+| :---: | :---: |
+| ![Menu Utama](assets/screenshots/menu.png) | ![Aturan](assets/screenshots/aturan.png) |
+
+| Pemilihan Karakter | Papan Permainan (Pixel Art) |
+| :---: | :---: |
+| ![Pilih Karakter](assets/screenshots/karakter.png) | ![Papan](assets/screenshots/papan.png) |
+
+| Animasi Sebar Biji | Cut-in Jurus Karakter |
+| :---: | :---: |
+| ![Animasi Sebar](assets/screenshots/animasi.png) | ![Cut-in Jurus](assets/screenshots/jurus_cutin.png) |
+
+<p align="center">
+  <b>Panel Hasil Akhir Pertandingan</b><br>
+  <img src="assets/screenshots/hasil.png" alt="Panel Hasil Permainan" width="640">
+</p>
+
 ---
 
 ## 🎮 Fitur Permainan
@@ -47,7 +72,8 @@ Congklak/
 ├── assets/
 │   ├── characters/              # Tempat kustom sprite karakter (PNG/WebP 64x96)
 │   ├── fonts/                   # BMFont piksel hasil bangkitan (pixel.fnt, pixel.png)
-│   └── scene/                   # Video jurus pamungkas (*_ult.ogv)
+│   ├── scene/                   # Video jurus pamungkas (*_ult.ogv)
+│   └── screenshots/             # Tangkapan layar dokumentasi game
 ├── scenes/
 │   ├── menu.tscn                # Scene menu utama
 │   ├── character_select.tscn    # Scene pemilihan karakter
