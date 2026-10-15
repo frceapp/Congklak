@@ -1,0 +1,18 @@
+# Godot 4+ cache & internal artifacts
+.godot/
+
+# Build artifacts
+build/
+*.apk
+*.aab
+*.idsig
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Keystores & credentials
+*.keystore
+export_credentials.cfg
